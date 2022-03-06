@@ -1,0 +1,435 @@
+@charset "UTF-8";
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f2f2f2;
+}
+
+/*Nav */
+.nav__color {
+  background-color: #f2f2f2;
+  -webkit-box-shadow: 0 0 4px 0 #0e0d0d;
+          box-shadow: 0 0 4px 0 #0e0d0d;
+}
+
+.nav-item {
+  margin: 5px;
+}
+
+.nav__link {
+  font-size: 13px;
+  text-decoration: none;
+  color: #f23e2e;
+  text-transform: uppercase;
+}
+
+.nav__link:hover {
+  color: black;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.navbar-light .navbar-toggler {
+  border: none;
+}
+
+.fa-solid.fa-bars {
+  color: #f23e2e;
+}
+
+/*Main */
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url(../Imágenes/Heroimage3.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
+}
+
+.button1 {
+  background-color: #f23e2e;
+  border-radius: 50px;
+  color: white;
+  font-size: 15px;
+  margin: 20px 20px 40px 20px;
+  padding: 5px;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: none;
+}
+
+.button1:hover {
+  background-color: white;
+  color: #f23e2e;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.hero__title {
+  color: white;
+  font-size: 40px;
+  margin-left: 50%;
+  margin-right: 5%;
+  font-weight: bold;
+}
+
+.hero__title span {
+  color: #f23e2e;
+}
+
+.hero__text {
+  color: white;
+  font-size: 15px;
+  margin: 20px;
+}
+
+.entrenemientos {
+  -webkit-transform: skew(0deg, 5deg);
+          transform: skew(0deg, 5deg);
+  background-color: #f2f2f2;
+  margin-top: -25px;
+  height: auto;
+}
+
+.entrenamientos__contenido {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-transform: skew(0deg, -5deg);
+          transform: skew(0deg, -5deg);
+}
+
+.entrenamientos__contenido h2 {
+  color: black;
+  font-size: 30px;
+  margin-left: 5px;
+  margin-top: 20px;
+  font-weight: 400;
+}
+
+.entrenamientos__contenido a {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  margin: 10px auto 15px 5px;
+  text-transform: uppercase;
+}
+
+.entrenamientos__contenido a:hover {
+  color: #f23e2e;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.button3 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#5a5757), to(#999595));
+  background-image: linear-gradient(to bottom, #5a5757, #999595);
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  text-orientation: upright;
+  position: fixed;
+  top: 50vh;
+  border-radius: 50px;
+  color: white;
+  font-size: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 30px;
+  height: auto;
+  padding-right: 10px;
+  padding-top: 5px;
+  right: 10px;
+  -webkit-box-shadow: 2px 2px 2px 1px #0e0d0d;
+          box-shadow: 2px 2px 2px 1px #0e0d0d;
+  border: none;
+  z-index: 100;
+}
+
+.button3:hover {
+  color: black;
+  -webkit-transform: skew(5deg, 3deg);
+          transform: skew(5deg, 3deg);
+  -webkit-transition: all 2s ease;
+  transition: all 2s ease;
+}
+
+.video {
+  display: none;
+}
+
+.map {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.map h2 {
+  color: #f23e2e;
+  font-size: 30px;
+  font-weight: 400;
+  margin: 10px;
+  text-transform: uppercase;
+}
+
+.map img {
+  width: 90%;
+  height: 80%;
+  margin-bottom: 10px;
+}
+
+.button2 {
+  background-color: #f23e2e;
+  border-radius: 50px;
+  color: white;
+  font-size: 15px;
+  margin: 10px;
+  padding: 5px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.button2:hover {
+  background-color: #111010;
+  color: #f23e2e;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.card__section {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url(../Imágenes/¿Que-es-CrossFit.png);
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+  margin: 5px;
+}
+
+.card__section h2 {
+  font-size: 30px;
+  color: white;
+}
+
+.card:hover {
+  -webkit-transform: translateY(-3%);
+          transform: translateY(-3%);
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.planes__section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: -webkit-gradient(linear, left top, right top, from(#b3adad), to(#3a3535));
+  background-image: linear-gradient(to right, #b3adad, #3a3535);
+  margin: 5px;
+}
+
+.planes__card {
+  -webkit-box-shadow: 0 0 4px 0 #0e0d0d;
+          box-shadow: 0 0 4px 0 #0e0d0d;
+  border: none;
+}
+
+.planes__section h2 {
+  font-size: 40px;
+  color: black;
+}
+
+.planes__section h2 span {
+  color: white;
+}
+
+.contacto__form {
+  margin: 5px;
+}
+
+.tienda__section {
+  margin: 10px 5px auto 5px;
+}
+
+/*Footer*/
+.footer {
+  font-size: 15px;
+  background-color: black;
+  color: white;
+  width: 100%;
+  margin: 5px;
+  grid-area: footer;
+}
+
+@media (min-width: 768px) {
+  .video {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: auto;
+    width: auto;
+  }
+  .hero__title {
+    color: white;
+    font-size: 70px;
+  }
+  .hero__title span {
+    color: #f23e2e;
+  }
+  .hero__text {
+    color: white;
+    font-size: 25px;
+    margin-left: 60%;
+    margin-right: 10%;
+  }
+  .button1 {
+    background-color: #f23e2e;
+    border-radius: 50px;
+    color: white;
+    font-size: 25px;
+    margin-left: 60%;
+    margin-right: 10%;
+    padding: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  .button1:hover {
+    background-color: white;
+    color: #f23e2e;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  .entrenamientos {
+    height: 400px;
+    background-position: center;
+    background-repeat: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 5px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .entrenamientos h2 {
+    color: white;
+    font-size: 70px;
+    margin-left: 5px;
+  }
+  .entrenamientos a {
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    margin-left: 5px;
+    text-transform: uppercase;
+  }
+  .entrenamientos a:hover {
+    color: #f23e2e;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  .video iframe {
+    width: 60%;
+    height: 500px;
+  }
+  .button2 {
+    font-size: 25px;
+  }
+  .map h2 {
+    font-size: 25px;
+  }
+  .footer {
+    font-size: 25px;
+  }
+  .planes__cardsection {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contacto__form {
+    margin-left: 25%;
+  }
+  .input-group {
+    width: 50%;
+  }
+}
+/*# sourceMappingURL=estilos.css.map */
