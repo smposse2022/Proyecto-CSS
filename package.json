@@ -1,0 +1,20 @@
+{
+  "name": "box-de-crossfit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smposse2022/Proyecto-CSS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smposse2022/Proyecto-CSS/issues"
+  },
+  "homepage": "https://github.com/smposse2022/Proyecto-CSS#readme"
+}

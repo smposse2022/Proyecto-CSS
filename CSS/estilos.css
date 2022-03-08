@@ -22,7 +22,7 @@ body {
   text-transform: uppercase;
 }
 
-.nav__link:hover {
+.nav__link :hover {
   color: black;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -37,105 +37,39 @@ body {
 }
 
 /*Main */
-.hero {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-image: url(../Imágenes/Heroimage3.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: none;
-}
-
 .button1 {
   background-color: #f23e2e;
   border-radius: 50px;
   color: white;
   font-size: 15px;
-  margin: 20px 20px 40px 20px;
+  margin: 20px 20px 50px 20px;
   padding: 5px;
   text-transform: uppercase;
   text-decoration: none;
   border: none;
 }
 
-.button1:hover {
+.button1 :hover {
   background-color: white;
   color: #f23e2e;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
 
-.hero__title {
-  color: white;
-  font-size: 40px;
-  margin-left: 50%;
-  margin-right: 5%;
-  font-weight: bold;
-}
-
-.hero__title span {
-  color: #f23e2e;
-}
-
-.hero__text {
+.button2 {
+  background-color: #f23e2e;
+  border-radius: 50px;
   color: white;
   font-size: 15px;
-  margin: 20px;
-}
-
-.entrenemientos {
-  -webkit-transform: skew(0deg, 5deg);
-          transform: skew(0deg, 5deg);
-  background-color: #f2f2f2;
-  margin-top: -25px;
-  height: auto;
-}
-
-.entrenamientos__contenido {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -webkit-transform: skew(0deg, -5deg);
-          transform: skew(0deg, -5deg);
-}
-
-.entrenamientos__contenido h2 {
-  color: black;
-  font-size: 30px;
-  margin-left: 5px;
-  margin-top: 20px;
-  font-weight: 400;
-}
-
-.entrenamientos__contenido a {
-  color: black;
-  font-size: 20px;
-  text-decoration: none;
-  margin: 10px auto 15px 5px;
+  margin: 10px;
+  padding: 5px;
   text-transform: uppercase;
+  text-decoration: none;
+  border: none;
 }
 
-.entrenamientos__contenido a:hover {
+.button2 :hover {
+  background-color: #f2f2f2;
   color: #f23e2e;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
@@ -169,7 +103,7 @@ body {
   z-index: 100;
 }
 
-.button3:hover {
+.button3 :hover {
   color: black;
   -webkit-transform: skew(5deg, 3deg);
           transform: skew(5deg, 3deg);
@@ -177,132 +111,23 @@ body {
   transition: all 2s ease;
 }
 
-.video {
-  display: none;
-}
-
-.map {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.map h2 {
-  color: #f23e2e;
-  font-size: 30px;
-  font-weight: 400;
-  margin: 10px;
-  text-transform: uppercase;
-}
-
-.map img {
-  width: 90%;
-  height: 80%;
-  margin-bottom: 10px;
-}
-
-.button2 {
+.button4 {
   background-color: #f23e2e;
   border-radius: 50px;
   color: white;
   font-size: 15px;
-  margin: 10px;
+  margin: 20px 20px 50px 20px;
   padding: 5px;
   text-transform: uppercase;
   text-decoration: none;
-}
-
-.button2:hover {
-  background-color: #111010;
-  color: #f23e2e;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
-}
-
-.card__section {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-image: url(../Imágenes/¿Que-es-CrossFit.png);
-  background-position: center;
-  background-repeat: none;
-  background-size: cover;
-  margin: 5px;
-}
-
-.card__section h2 {
-  font-size: 30px;
-  color: white;
-}
-
-.card:hover {
-  -webkit-transform: translateY(-3%);
-          transform: translateY(-3%);
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-}
-
-.planes__section {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-image: -webkit-gradient(linear, left top, right top, from(#b3adad), to(#3a3535));
-  background-image: linear-gradient(to right, #b3adad, #3a3535);
-  margin: 5px;
-}
-
-.planes__card {
-  -webkit-box-shadow: 0 0 4px 0 #0e0d0d;
-          box-shadow: 0 0 4px 0 #0e0d0d;
   border: none;
 }
 
-.planes__section h2 {
-  font-size: 40px;
-  color: black;
-}
-
-.planes__section h2 span {
-  color: white;
-}
-
-.contacto__form {
-  margin: 5px;
-}
-
-.tienda__section {
-  margin: 10px 5px auto 5px;
+.button4 :hover {
+  background-color: white;
+  color: #f23e2e;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 /*Footer*/
@@ -311,12 +136,22 @@ body {
   background-color: black;
   color: white;
   width: 100%;
-  margin: 5px;
-  grid-area: footer;
 }
 
 @media (min-width: 768px) {
+  .entrenamientos__contenido {
+    padding-bottom: 100px;
+  }
   .video {
+    display: inline-block;
+    -webkit-transform: skew(0deg, 5deg);
+            transform: skew(0deg, 5deg);
+    background-image: -webkit-gradient(linear, left top, right top, from(#0c0c0c), to(#3b100c));
+    background-image: linear-gradient(to right, #0c0c0c, #3b100c);
+    margin-top: -35px;
+    height: auto;
+  }
+  .video__contenido {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -332,6 +167,10 @@ body {
             align-items: center;
     height: auto;
     width: auto;
+    -webkit-transform: skew(0deg, -5deg);
+            transform: skew(0deg, -5deg);
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
   .hero__title {
     color: white;
@@ -357,7 +196,7 @@ body {
     text-transform: uppercase;
     text-decoration: none;
   }
-  .button1:hover {
+  .button1 :hover {
     background-color: white;
     color: #f23e2e;
     -webkit-transition: all 0.5s;
@@ -393,7 +232,7 @@ body {
     margin-left: 5px;
     text-transform: uppercase;
   }
-  .entrenamientos a:hover {
+  .entrenamientos a :hover {
     color: #f23e2e;
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
@@ -411,19 +250,11 @@ body {
   .footer {
     font-size: 25px;
   }
-  .planes__cardsection {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+  .card__section {
+    padding-bottom: 100px;
+  }
+  .planes__section__contenido {
+    padding-top: 100px;
   }
   .contacto__form {
     margin-left: 25%;
@@ -431,5 +262,140 @@ body {
   .input-group {
     width: 50%;
   }
+}
+
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url(../Imágenes/Heroimage3.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
+}
+
+.hero .hero__title {
+  color: white;
+  font-size: 40px;
+  margin-left: 50%;
+  margin-right: 5%;
+  font-weight: bold;
+}
+
+.hero .hero__title .hero__title span {
+  color: #f23e2e;
+}
+
+.hero .hero__text {
+  color: white;
+  font-size: 15px;
+  margin: 20px;
+}
+
+.entrenemientos {
+  -webkit-transform: skew(0deg, 5deg);
+          transform: skew(0deg, 5deg);
+  background-color: #f2f2f2;
+  margin-top: -35px;
+  height: auto;
+}
+
+.entrenemientos .entrenamientos__contenido {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-transform: skew(0deg, -5deg);
+          transform: skew(0deg, -5deg);
+  padding-bottom: 20px;
+}
+
+.entrenemientos .entrenamientos__contenido h2 {
+  color: black;
+  font-size: 30px;
+  margin-left: 5px;
+  margin-top: 20px;
+  font-weight: 400;
+}
+
+.entrenemientos a {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  margin: 10px auto 15px 5px;
+  text-transform: uppercase;
+}
+
+.entrenemientos a :hover {
+  color: #f23e2e;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.video {
+  display: none;
+}
+
+.map {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.map h2 {
+  color: #f23e2e;
+  font-size: 30px;
+  font-weight: 400;
+  margin: 10px;
+  text-transform: uppercase;
+  padding-top: 15px;
+}
+
+.map img {
+  width: 90%;
+  height: 80%;
+  margin-bottom: 10px;
+}
+
+.box__coach {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.box__coach h5 span {
+  color: #f23e2e;
+  font-weight: bold;
+}
+
+.box__coach p span {
+  color: #f23e2e;
+  font-weight: bold;
 }
 /*# sourceMappingURL=estilos.css.map */

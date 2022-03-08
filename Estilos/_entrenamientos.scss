@@ -1,0 +1,28 @@
+.card__section {
+  width: 100%;
+  background-image: url(../Imágenes/¿Que-es-CrossFit.png);
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+  padding-bottom: 60px;
+  h2 {
+    font-size: 30px;
+    color: white;
+  }
+}
+.card:hover {
+  transform: translateY(-3%);
+  transition: all 0.5s ease;
+}
+.planes__section {
+  transform: skew(0deg, 5deg);
+  background-color: #f2f2f2;
+  margin-top: -35px;
+  height: auto;
+  margin-bottom: 30px;
+  .planes__section__contenido {
+    transform: skew(0deg, -5deg);
+    padding-bottom: 20px;
+    justify-content: space-around;
+  }
+}
