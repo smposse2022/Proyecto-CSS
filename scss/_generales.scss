@@ -1,96 +1,34 @@
 body {
   font-family: "Montserrat", sans-serif;
-  background-color: #f2f2f2;
+  background-color: $color2;
 }
 /*Nav */
 .nav__color {
-  background-color: #f2f2f2;
+  background-color: $color2;
   box-shadow: 0 0 4px 0 rgb(14, 13, 13);
 }
 .nav-item {
   margin: 5px;
-}
-.nav__link {
-  font-size: 13px;
-  text-decoration: none;
-  color: #f23e2e;
-  text-transform: uppercase;
-  :hover {
-    color: black;
-    transition: 0.5s;
+  .nav__link {
+    font-size: 13px;
+    text-decoration: none;
+    color: $color1;
+    text-transform: uppercase;
+    &:hover {
+      color: black;
+      transition: 0.5s;
+    }
   }
 }
+
 .navbar-light .navbar-toggler {
   border: none;
 }
 .fa-solid.fa-bars {
-  color: #f23e2e;
-}
-/*Main */
-.button1 {
-  background-color: #f23e2e;
-  border-radius: 50px;
-  color: white;
-  font-size: 15px;
-  margin: 20px 20px 50px 20px;
-  padding: 5px;
-  text-transform: uppercase;
-  text-decoration: none;
-  border: none;
-  :hover {
-    background-color: white;
-    color: #f23e2e;
-    transition: all 0.5s;
-  }
-}
-.button2 {
-  background-color: #f23e2e;
-  border-radius: 50px;
-  color: white;
-  font-size: 15px;
-  margin: 10px;
-  padding: 5px;
-  text-transform: uppercase;
-  text-decoration: none;
-  border: none;
-  :hover {
-    background-color: #f2f2f2;
-    color: #f23e2e;
-    transition: all 0.5s;
-  }
-}
-.button3 {
-  background-image: linear-gradient(
-    to bottom,
-    rgb(90, 87, 87),
-    rgb(153, 149, 149)
-  );
-  writing-mode: vertical-rl;
-  text-orientation: upright;
-  position: fixed;
-  top: 50vh;
-  border-radius: 50px;
-  color: white;
-  font-size: 10px;
-  text-transform: uppercase;
-  text-decoration: none;
-  align-self: center;
-  width: 30px;
-  height: auto;
-  padding-right: 10px;
-  padding-top: 5px;
-  right: 10px;
-  box-shadow: 2px 2px 2px 1px rgb(14, 13, 13);
-  border: none;
-  z-index: 100;
-  :hover {
-    color: black;
-    transform: skew(5deg, 3deg);
-    transition: all 2s ease;
-  }
+  color: $color1;
 }
 .button4 {
-  background-color: #f23e2e;
+  background-color: $color1;
   border-radius: 50px;
   color: white;
   font-size: 15px;
@@ -99,9 +37,9 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   border: none;
-  :hover {
-    background-color: white;
-    color: #f23e2e;
+  &:hover {
+    background-color: black;
+    color: $color1;
     transition: all 0.5s;
   }
 }

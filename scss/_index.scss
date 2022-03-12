@@ -7,54 +7,98 @@
   background-size: cover;
   background-position: center;
   background-repeat: none;
-  .hero__title {
-    color: white;
-    font-size: $fontsize;
-    margin-left: 50%;
-    margin-right: 5%;
-    font-weight: bold;
-    .hero__title span {
-      color: #f23e2e;
-    }
-  }
-  .hero__text {
-    color: white;
-    font-size: 15px;
-    margin: 20px;
+}
+.hero__title {
+  color: white;
+  font-size: $fontsize;
+  margin-left: 50%;
+  margin-right: 5%;
+  font-weight: bold;
+  span {
+    color: $color1;
   }
 }
-
+.hero__text {
+  color: white;
+  font-size: 15px;
+  margin: ($fontsize / 2);
+}
+.button1 {
+  background-color: $color1;
+  border-radius: 50px;
+  color: white;
+  font-size: 15px;
+  margin: 20px 20px 50px 20px;
+  padding: 5px;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: none;
+  &:hover {
+    background-color: white;
+    color: $color1;
+    transition: all 0.5s;
+  }
+}
 .entrenemientos {
   transform: skew(0deg, 5deg);
-  background-color: #f2f2f2;
+  background-color: $color2;
   margin-top: -35px;
   height: auto;
-  .entrenamientos__contenido {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: flex-start;
-    transform: skew(0deg, -5deg);
-    padding-bottom: 20px;
-    h2 {
-      color: black;
-      font-size: 30px;
-      margin-left: 5px;
-      margin-top: 20px;
-      font-weight: 400;
-    }
+}
+.entrenamientos__contenido {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  transform: skew(0deg, -5deg);
+  padding-bottom: ($fontsize / 2);
+}
+.entrenamientos__contenido h2 {
+  color: black;
+  font-size: 30px;
+  margin-left: 5px;
+  margin-top: 20px;
+  font-weight: 400;
+}
+.entrenamientos__contenido a {
+  color: black;
+  font-size: ($fontsize / 2);
+  text-decoration: none;
+  margin: 10px auto 15px 5px;
+  text-transform: uppercase;
+  &:hover {
+    color: $color1;
+    transition: all 0.5s;
   }
-
-  a {
+}
+.button3 {
+  background-image: linear-gradient(
+    to bottom,
+    rgb(90, 87, 87),
+    rgb(153, 149, 149)
+  );
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  position: fixed;
+  top: 50vh;
+  border-radius: 50px;
+  color: white;
+  font-size: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  align-self: center;
+  width: 30px;
+  height: auto;
+  padding-right: 10px;
+  padding-top: 5px;
+  right: 10px;
+  box-shadow: 2px 2px 2px 1px rgb(14, 13, 13);
+  border: none;
+  z-index: 100;
+  &:hover {
     color: black;
-    font-size: 20px;
-    text-decoration: none;
-    margin: 10px auto 15px 5px;
-    text-transform: uppercase;
-    :hover {
-      color: #f23e2e;
-      transition: all 0.5s;
-    }
+    transform: skew(5deg, 3deg);
+    transition: all 2s ease;
   }
 }
 .video {
@@ -65,17 +109,33 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  h2 {
-    color: #f23e2e;
-    font-size: 30px;
-    font-weight: 400;
-    margin: 10px;
-    text-transform: uppercase;
-    padding-top: 15px;
-  }
-  img {
-    width: 90%;
-    height: 80%;
-    margin-bottom: 10px;
+}
+.map h2 {
+  color: $color1;
+  font-size: 30px;
+  font-weight: 400;
+  margin: 10px;
+  text-transform: uppercase;
+  padding-top: 15px;
+}
+.map img {
+  width: 90%;
+  height: 80%;
+  margin-bottom: 10px;
+}
+.button2 {
+  background-color: $color1;
+  border-radius: 50px;
+  color: white;
+  font-size: 15px;
+  margin: 10px;
+  padding: 5px;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: none;
+  &:hover {
+    background-color: $color2;
+    color: $color1;
+    transition: all 0.5s;
   }
 }

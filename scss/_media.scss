@@ -22,9 +22,9 @@
   }
   .hero__title {
     color: white;
-    font-size: $fontsize * 2;
+    font-size: 70px;
     span {
-      color: #f23e2e;
+      color: $color1;
     }
   }
   .hero__text {
@@ -34,7 +34,7 @@
     margin-right: 10%;
   }
   .button1 {
-    background-color: #f23e2e;
+    background-color: $color1;
     border-radius: 50px;
     color: white;
     font-size: 25px;
@@ -43,9 +43,9 @@
     padding: 5px;
     text-transform: uppercase;
     text-decoration: none;
-    :hover {
+    &:hover {
       background-color: white;
-      color: #f23e2e;
+      color: $color1;
       transition: all 0.5s;
     }
   }
@@ -69,8 +69,8 @@
       text-decoration: none;
       margin-left: 5px;
       text-transform: uppercase;
-      :hover {
-        color: #f23e2e;
+      &:hover {
+        color: $color1;
         transition: all 0.5s;
       }
     }

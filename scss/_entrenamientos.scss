@@ -16,13 +16,13 @@
 }
 .planes__section {
   transform: skew(0deg, 5deg);
-  background-color: #f2f2f2;
+  background-color: $color2;
   margin-top: -35px;
   height: auto;
   margin-bottom: 30px;
   .planes__section__contenido {
     transform: skew(0deg, -5deg);
-    padding-bottom: 20px;
+    padding-bottom: ($fontsize / 2);
     justify-content: space-around;
   }
 }
