@@ -21,7 +21,7 @@
 .hero__text {
   color: white;
   font-size: 15px;
-  margin: ($fontsize / 2);
+  margin: ($fontsize/2);
 }
 .button1 {
   background-color: $color1;
@@ -51,7 +51,7 @@
   justify-content: space-around;
   align-items: flex-start;
   transform: skew(0deg, -5deg);
-  padding-bottom: ($fontsize / 2);
+  padding-bottom: ($fontsize/2);
 }
 .entrenamientos__contenido h2 {
   color: black;
@@ -62,43 +62,13 @@
 }
 .entrenamientos__contenido a {
   color: black;
-  font-size: ($fontsize / 2);
+  font-size: ($fontsize/2);
   text-decoration: none;
   margin: 10px auto 15px 5px;
   text-transform: uppercase;
   &:hover {
     color: $color1;
     transition: all 0.5s;
-  }
-}
-.button3 {
-  background-image: linear-gradient(
-    to bottom,
-    rgb(90, 87, 87),
-    rgb(153, 149, 149)
-  );
-  writing-mode: vertical-rl;
-  text-orientation: upright;
-  position: fixed;
-  top: 50vh;
-  border-radius: 50px;
-  color: white;
-  font-size: 10px;
-  text-transform: uppercase;
-  text-decoration: none;
-  align-self: center;
-  width: 30px;
-  height: auto;
-  padding-right: 10px;
-  padding-top: 5px;
-  right: 10px;
-  box-shadow: 2px 2px 2px 1px rgb(14, 13, 13);
-  border: none;
-  z-index: 100;
-  &:hover {
-    color: black;
-    transform: skew(5deg, 3deg);
-    transition: all 2s ease;
   }
 }
 .video {
@@ -119,8 +89,7 @@
   padding-top: 15px;
 }
 .map img {
-  width: 90%;
-  height: 80%;
+  width: 70%;
   margin-bottom: 10px;
 }
 .button2 {
