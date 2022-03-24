@@ -4,9 +4,7 @@
   justify-content: center;
   align-items: center;
   background-image: url(../Imágenes/Heroimage3.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: none;
+  @include background(cover, center, none);
 }
 .hero__title {
   color: white;
@@ -21,7 +19,7 @@
 .hero__text {
   color: white;
   font-size: 15px;
-  margin: ($fontsize/2);
+  margin: 20px;
 }
 .button1 {
   background-color: $color1;
@@ -33,6 +31,7 @@
   text-transform: uppercase;
   text-decoration: none;
   border: none;
+  animation-delay: 4s;
   &:hover {
     background-color: white;
     color: $color1;
@@ -41,6 +40,7 @@
 }
 .entrenemientos {
   transform: skew(0deg, 5deg);
+  overflow: hidden;
   background-color: $color2;
   margin-top: -35px;
   height: auto;
@@ -51,7 +51,7 @@
   justify-content: space-around;
   align-items: flex-start;
   transform: skew(0deg, -5deg);
-  padding-bottom: ($fontsize/2);
+  padding-bottom: 20px;
 }
 .entrenamientos__contenido h2 {
   color: black;
@@ -62,7 +62,7 @@
 }
 .entrenamientos__contenido a {
   color: black;
-  font-size: ($fontsize/2);
+  font-size: 20px;
   text-decoration: none;
   margin: 10px auto 15px 5px;
   text-transform: uppercase;
@@ -102,6 +102,7 @@
   text-transform: uppercase;
   text-decoration: none;
   border: none;
+  animation-delay: 7s;
   &:hover {
     background-color: $color2;
     color: $color1;

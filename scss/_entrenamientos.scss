@@ -1,9 +1,7 @@
 .card__section {
   width: 100%;
   background-image: url(../Imágenes/¿Que-es-CrossFit.png);
-  background-position: center;
-  background-repeat: none;
-  background-size: cover;
+  @include background(cover, center, none);
   padding-bottom: 60px;
   h2 {
     font-size: 30px;
@@ -22,7 +20,7 @@
   margin-bottom: 30px;
   .planes__section__contenido {
     transform: skew(0deg, -5deg);
-    padding-bottom: ($fontsize / 2);
+    padding-bottom: 20px;
     justify-content: space-around;
   }
 }

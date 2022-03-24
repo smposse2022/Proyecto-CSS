@@ -46,6 +46,8 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   border: none;
+  -webkit-animation-delay: 2.5s;
+          animation-delay: 2.5s;
 }
 
 .button4:hover {
@@ -111,6 +113,8 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   border: none;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
 }
 
 .button1:hover {
@@ -123,6 +127,7 @@ body {
 .entrenemientos {
   -webkit-transform: skew(0deg, 5deg);
           transform: skew(0deg, 5deg);
+  overflow: hidden;
   background-color: #f2f2f2;
   margin-top: -35px;
   height: auto;
@@ -212,6 +217,8 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   border: none;
+  -webkit-animation-delay: 7s;
+          animation-delay: 7s;
 }
 
 .button2:hover {
@@ -224,9 +231,9 @@ body {
 .card__section {
   width: 100%;
   background-image: url(../Imágenes/¿Que-es-CrossFit.png);
+  background-size: cover;
   background-position: center;
   background-repeat: none;
-  background-size: cover;
   padding-bottom: 60px;
 }
 

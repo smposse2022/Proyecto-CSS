@@ -37,6 +37,7 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   border: none;
+  animation-delay: 2.5s;
   &:hover {
     background-color: black;
     color: $color1;
